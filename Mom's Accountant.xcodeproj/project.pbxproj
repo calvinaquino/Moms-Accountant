@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9848EDC61F11B4CE0040932C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9848EDC51F11B4CE0040932C /* AppDelegate.swift */; };
+		9848EDC81F11B4CE0040932C /* MonthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9848EDC71F11B4CE0040932C /* MonthViewController.swift */; };
+		9848EDCB1F11B4CE0040932C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9848EDC91F11B4CE0040932C /* Main.storyboard */; };
+		9848EDCE1F11B4CE0040932C /* Mom_s_Accountant.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9848EDCC1F11B4CE0040932C /* Mom_s_Accountant.xcdatamodeld */; };
+		9848EDD01F11B4CE0040932C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9848EDCF1F11B4CE0040932C /* Assets.xcassets */; };
+		9848EDD31F11B4CE0040932C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9848EDD11F11B4CE0040932C /* LaunchScreen.storyboard */; };
+		9848EDDB1F11BCF10040932C /* AnchorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9848EDDA1F11BCF10040932C /* AnchorExtension.swift */; };
+		9848EDDD1F11C55B0040932C /* CoreDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9848EDDC1F11C55B0040932C /* CoreDataController.swift */; };
+		9848EDE01F11CA6D0040932C /* Transaction+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9848EDDE1F11CA6D0040932C /* Transaction+CoreDataClass.swift */; };
+		9848EDE11F11CA6D0040932C /* Transaction+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9848EDDF1F11CA6D0040932C /* Transaction+CoreDataProperties.swift */; };
+		986E2FB11F15554500B6F94E /* MonthsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986E2FB01F15554500B6F94E /* MonthsViewController.swift */; };
+		986E2FB31F155A4000B6F94E /* CalendarHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986E2FB21F155A4000B6F94E /* CalendarHelper.swift */; };
+		986E2FB91F155DFD00B6F94E /* AccountingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986E2FB81F155DFD00B6F94E /* AccountingTableViewCell.swift */; };
+		986E2FBC1F15613800B6F94E /* TransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986E2FBB1F15613800B6F94E /* TransactionViewController.swift */; };
+		986E2FBE1F15740B00B6F94E /* TransacionTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986E2FBD1F15740B00B6F94E /* TransacionTextField.swift */; };
+		986E2FC61F1592D400B6F94E /* PaymentTypeControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986E2FC51F1592D400B6F94E /* PaymentTypeControl.swift */; };
+		986E2FC81F15975900B6F94E /* TotalBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986E2FC71F15975900B6F94E /* TotalBarItem.swift */; };
+		986E2FCA1F15DCCA00B6F94E /* AccountingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986E2FC91F15DCCA00B6F94E /* AccountingHelper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9848EDC21F11B4CE0040932C /* Mom's Accountant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mom's Accountant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9848EDC51F11B4CE0040932C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9848EDC71F11B4CE0040932C /* MonthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthViewController.swift; sourceTree = "<group>"; };
+		9848EDCA1F11B4CE0040932C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9848EDCD1F11B4CE0040932C /* Mom_s_Accountant.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Mom_s_Accountant.xcdatamodel; sourceTree = "<group>"; };
+		9848EDCF1F11B4CE0040932C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9848EDD21F11B4CE0040932C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9848EDD41F11B4CE0040932C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9848EDDA1F11BCF10040932C /* AnchorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnchorExtension.swift; sourceTree = "<group>"; };
+		9848EDDC1F11C55B0040932C /* CoreDataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataController.swift; sourceTree = "<group>"; };
+		9848EDDE1F11CA6D0040932C /* Transaction+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Transaction+CoreDataClass.swift"; sourceTree = "<group>"; };
+		9848EDDF1F11CA6D0040932C /* Transaction+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Transaction+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		986E2FB01F15554500B6F94E /* MonthsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthsViewController.swift; sourceTree = "<group>"; };
+		986E2FB21F155A4000B6F94E /* CalendarHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarHelper.swift; sourceTree = "<group>"; };
+		986E2FB81F155DFD00B6F94E /* AccountingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountingTableViewCell.swift; sourceTree = "<group>"; };
+		986E2FBB1F15613800B6F94E /* TransactionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionViewController.swift; sourceTree = "<group>"; };
+		986E2FBD1F15740B00B6F94E /* TransacionTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransacionTextField.swift; sourceTree = "<group>"; };
+		986E2FC51F1592D400B6F94E /* PaymentTypeControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentTypeControl.swift; sourceTree = "<group>"; };
+		986E2FC71F15975900B6F94E /* TotalBarItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TotalBarItem.swift; sourceTree = "<group>"; };
+		986E2FC91F15DCCA00B6F94E /* AccountingHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountingHelper.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9848EDBF1F11B4CE0040932C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9848EDB91F11B4CE0040932C = {
+			isa = PBXGroup;
+			children = (
+				9848EDC41F11B4CE0040932C /* Mom's Accountant */,
+				9848EDC31F11B4CE0040932C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9848EDC31F11B4CE0040932C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9848EDC21F11B4CE0040932C /* Mom's Accountant.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9848EDC41F11B4CE0040932C /* Mom's Accountant */ = {
+			isa = PBXGroup;
+			children = (
+				986E2FB61F155ABE00B6F94E /* CoreData */,
+				9848EDC51F11B4CE0040932C /* AppDelegate.swift */,
+				986E2FBA1F155E0000B6F94E /* Views */,
+				986E2FB51F155A9E00B6F94E /* ViewControllers */,
+				986E2FB41F155A9000B6F94E /* Helpers */,
+				9848EDC91F11B4CE0040932C /* Main.storyboard */,
+				986E2FB71F155AD100B6F94E /* Supporting Files */,
+			);
+			path = "Mom's Accountant";
+			sourceTree = "<group>";
+		};
+		9848EDE21F11CA830040932C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9848EDDE1F11CA6D0040932C /* Transaction+CoreDataClass.swift */,
+				9848EDDF1F11CA6D0040932C /* Transaction+CoreDataProperties.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		986E2FB41F155A9000B6F94E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				986E2FB21F155A4000B6F94E /* CalendarHelper.swift */,
+				9848EDDA1F11BCF10040932C /* AnchorExtension.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		986E2FB51F155A9E00B6F94E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				986E2FB01F15554500B6F94E /* MonthsViewController.swift */,
+				9848EDC71F11B4CE0040932C /* MonthViewController.swift */,
+				986E2FBB1F15613800B6F94E /* TransactionViewController.swift */,
+				986E2FC91F15DCCA00B6F94E /* AccountingHelper.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		986E2FB61F155ABE00B6F94E /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				9848EDCC1F11B4CE0040932C /* Mom_s_Accountant.xcdatamodeld */,
+				9848EDDC1F11C55B0040932C /* CoreDataController.swift */,
+				9848EDE21F11CA830040932C /* Model */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		986E2FB71F155AD100B6F94E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9848EDCF1F11B4CE0040932C /* Assets.xcassets */,
+				9848EDD11F11B4CE0040932C /* LaunchScreen.storyboard */,
+				9848EDD41F11B4CE0040932C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		986E2FBA1F155E0000B6F94E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				986E2FB81F155DFD00B6F94E /* AccountingTableViewCell.swift */,
+				986E2FBD1F15740B00B6F94E /* TransacionTextField.swift */,
+				986E2FC71F15975900B6F94E /* TotalBarItem.swift */,
+				986E2FC51F1592D400B6F94E /* PaymentTypeControl.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9848EDC11F11B4CE0040932C /* Mom's Accountant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9848EDD71F11B4CE0040932C /* Build configuration list for PBXNativeTarget "Mom's Accountant" */;
+			buildPhases = (
+				9848EDBE1F11B4CE0040932C /* Sources */,
+				9848EDBF1F11B4CE0040932C /* Frameworks */,
+				9848EDC01F11B4CE0040932C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mom's Accountant";
+			productName = "Mom's Accountant";
+			productReference = 9848EDC21F11B4CE0040932C /* Mom's Accountant.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9848EDBA1F11B4CE0040932C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Calvin;
+				TargetAttributes = {
+					9848EDC11F11B4CE0040932C = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 5F35F2ZNFF;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9848EDBD1F11B4CE0040932C /* Build configuration list for PBXProject "Mom's Accountant" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9848EDB91F11B4CE0040932C;
+			productRefGroup = 9848EDC31F11B4CE0040932C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9848EDC11F11B4CE0040932C /* Mom's Accountant */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9848EDC01F11B4CE0040932C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9848EDD31F11B4CE0040932C /* LaunchScreen.storyboard in Resources */,
+				9848EDD01F11B4CE0040932C /* Assets.xcassets in Resources */,
+				9848EDCB1F11B4CE0040932C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9848EDBE1F11B4CE0040932C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9848EDC81F11B4CE0040932C /* MonthViewController.swift in Sources */,
+				986E2FB31F155A4000B6F94E /* CalendarHelper.swift in Sources */,
+				9848EDE11F11CA6D0040932C /* Transaction+CoreDataProperties.swift in Sources */,
+				986E2FCA1F15DCCA00B6F94E /* AccountingHelper.swift in Sources */,
+				986E2FBE1F15740B00B6F94E /* TransacionTextField.swift in Sources */,
+				9848EDDB1F11BCF10040932C /* AnchorExtension.swift in Sources */,
+				9848EDDD1F11C55B0040932C /* CoreDataController.swift in Sources */,
+				9848EDCE1F11B4CE0040932C /* Mom_s_Accountant.xcdatamodeld in Sources */,
+				986E2FB91F155DFD00B6F94E /* AccountingTableViewCell.swift in Sources */,
+				986E2FB11F15554500B6F94E /* MonthsViewController.swift in Sources */,
+				986E2FBC1F15613800B6F94E /* TransactionViewController.swift in Sources */,
+				9848EDE01F11CA6D0040932C /* Transaction+CoreDataClass.swift in Sources */,
+				986E2FC81F15975900B6F94E /* TotalBarItem.swift in Sources */,
+				986E2FC61F1592D400B6F94E /* PaymentTypeControl.swift in Sources */,
+				9848EDC61F11B4CE0040932C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9848EDC91F11B4CE0040932C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9848EDCA1F11B4CE0040932C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9848EDD11F11B4CE0040932C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9848EDD21F11B4CE0040932C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9848EDD51F11B4CE0040932C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9848EDD61F11B4CE0040932C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9848EDD81F11B4CE0040932C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5F35F2ZNFF;
+				INFOPLIST_FILE = "Mom's Accountant/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.calvin.Mom-s-Accountant";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9848EDD91F11B4CE0040932C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5F35F2ZNFF;
+				INFOPLIST_FILE = "Mom's Accountant/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.calvin.Mom-s-Accountant";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9848EDBD1F11B4CE0040932C /* Build configuration list for PBXProject "Mom's Accountant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9848EDD51F11B4CE0040932C /* Debug */,
+				9848EDD61F11B4CE0040932C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9848EDD71F11B4CE0040932C /* Build configuration list for PBXNativeTarget "Mom's Accountant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9848EDD81F11B4CE0040932C /* Debug */,
+				9848EDD91F11B4CE0040932C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9848EDCC1F11B4CE0040932C /* Mom_s_Accountant.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9848EDCD1F11B4CE0040932C /* Mom_s_Accountant.xcdatamodel */,
+			);
+			currentVersion = 9848EDCD1F11B4CE0040932C /* Mom_s_Accountant.xcdatamodel */;
+			path = Mom_s_Accountant.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9848EDBA1F11B4CE0040932C /* Project object */;
+}
