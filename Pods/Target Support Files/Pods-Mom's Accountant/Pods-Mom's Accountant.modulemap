@@ -1,0 +1,6 @@
+framework module Pods_Mom_s_Accountant {
+  umbrella header "Pods-Mom's Accountant-umbrella.h"
+
+  export *
+  module * { export * }
+}
